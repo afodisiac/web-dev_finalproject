@@ -1,0 +1,24 @@
+#bd{
+    background-color:beige;
+}
+
+.par{
+    font-size: 30px;
+    color:red;
+}
+.background-section {
+    height: 300px; 
+    /* background-image: afodisiac/IMG-20231219-WA0172.jpg; */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.text-overlay {
+    position: absolute;
+    bottom: -30%;
+    left: 90%;
+    translate: translate(-50%, -50%);
+    color: black;
+    text-align: right;
+    font-size: 100px;
+}

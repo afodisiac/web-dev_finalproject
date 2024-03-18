@@ -9,14 +9,43 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body class="body margin">
-    <a href="home.html">
-        <button type="button" class="btn btn-primary" >home</button>
-    <a href="about.html">
-        <button type="button" class="btn btn-info">about</button>
+    <?php include("nav2.html");?>
+
+    <?php include('navbar.html');?> 
+    
+    
     <p>in case of anything do not hesitate to contact us</p>
-    <p>our email is: emperorafodisiac@gamil.com</p>
-    <p>our phone number is: 0778189321</p>
-    <p>or hit us up on instagram : @afodmat</p>
+    <form action="">
+        <div class="container">
+            <div class="container-fluid">
+                <label for="">first name</label>
+                <input type="text" placeholder="firstname">
+            </div>
+            
+            <br>
+            <div class="container-fluid">
+                <label for="">second name</label>
+                <input type="text" placeholder="secondname">
+            </div>
+            
+            <br>
+            <div class="container-fluid">
+                <label for="">email</label>
+                <input type="email" placeholder="name@email.com">
+            </div>
+            <br>
+            <div class="card">
+                <label for="">your message</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger">submit</button>
+            </div>
+        </div>
+       
+        
+    </form>
+    <?php include('footer.php');?>
     <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

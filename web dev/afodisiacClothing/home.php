@@ -9,72 +9,82 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body id="bd">
-    <nav class="navbar navbar-expand-lg  ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">afodisiac</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    <?php include("nav2.html");?>
+
+    <?php include("navbar.html");?>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Left card -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">suits</h5>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">suits</h5>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/suit3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/suit2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/suit1.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-            <div>
-                <ul class="collapse navbar-collapse" >
-                    <li>
-                        <button type="button" class="btn btn-outline-info">
-                            <a class="nav-link active" aria-current="page" href="#">register</a>
-                        </button> 
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-outline-info">
-                            <a class="nav-link" href="#">signin</a>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </nav>
-
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid bg-warning" >
-            <a class="navbar-brand" href="#">afodisiac</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown"  >
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">home</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="nav-link" href="about.html">about</a>
-                    </li>
-                    <div>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              menu
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </div>
-                    
-                </ul>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
-    </nav>
+        <div class="col-md-6">
+            <!-- Right card -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">suits</h5>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">suits</h5>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/suit3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/suit2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/suit1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
     <!-- <div class="row ">
         
             <nav class="navbar navbar-expand-lg bg-info justify-content-center nav-dark bg-body-dark">
@@ -98,10 +108,32 @@
     </div> -->
     
 
+    <!-- <div class="card card1" >
+        <div class="container-fluid container-lg">
+            <div class="row">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+                    <div class="carousel-inner active">
+                        <div class="carousel-item active container-fluid">
+                            <p class="text-bg-danger display-6">Slide 1</p>
+                            <img src="images/IMG-20231219-WA0172.jpg" alt="GFG"  class="rounded float-start mx-auto d-block background-section container-fluid" height="1300px">
+                        </div>
+                        <div class="carousel-item container-fluid">
+                            <p class="text-bg-danger display-6">Slide 2</p>
+                            <img src="images/IMG-20231219-WA0196.jpg" alt="GFG"  class="rounded float-start mx-auto d-block background-section container-fluid" height="1300px">
+                        </div>
+                        <div class="carousel-item container-fluid">
+                            <p class="text-bg-danger display-6">Slide 3</p>
+                            <img src="images/IMG-20231219-WA0174.jpg" alt="GFG"   class="rounded float-start mx-auto d-block background-section container-fluid " height="1300px">
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+    </div>
     
-    <div class="container-fluid">
-        <a href="contact.html">
-            <img src="afodisiac/IMG-20231219-WA0172.jpg" class="rounded float-start mx-auto d-block background-section container-fluid " alt="well tailoured suit" style="height: 1300px;  ">
+        <a href="contact.php">
+            <img src="images/IMG-20231219-WA0172.jpg" class="rounded float-start mx-auto d-block background-section container-fluid " alt="well tailoured suit" style="height: 1300px;  ">
         </a>
         
         <div class="overlay">
@@ -119,7 +151,8 @@
             </div>
             
         </div>
-    </div>
+    </div> -->
+    <?php include('footer.php');?>
     <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

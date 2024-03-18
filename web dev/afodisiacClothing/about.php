@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body id="bd">
-    <a href="home.html">
-        <button type="button" class="btn btn-primary " >home</button>
-
-    <a href="contact.html">
-        <button type="button" class="btn btn-warning">contat us</button>   
+    <?php include("nav2.html");?>
+    
+    <?php include('navbar.html');?> 
+      
     
     <P style="color: red;">afodisiac clothing is a brand that was created in 2024 by the king himself Afod with the aim of
         providing well tailored attires, unique designs with elegant material all with the aim of making
@@ -22,6 +21,7 @@
     <p>we are a brand that  takes pride in serving our clients with off the shelf  customer care 
         that comes with a spinkle of reccord time delievery and a tables spoon of fulfilment of your expectation.
     </p>
+    <?php include('footer.php');?>
     <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

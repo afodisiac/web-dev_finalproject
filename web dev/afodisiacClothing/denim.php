@@ -16,7 +16,7 @@
             <tr>
                 <th scope="row">
                     <td>
-                        <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
                                 <h5>denim</h5>
@@ -30,7 +30,7 @@
                     </div>
                     </td>
                     <td>
-                        <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
                                 <h5>denim</h5>
@@ -44,7 +44,7 @@
                     </div>
                     </td>
                     <td>
-                        <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
                                 <h5>denim</h5>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <?php include('nav2.html');?>
+    <?php include('nav2.php');?>
 
     <?php include('navbar.html');?>
     <table>
@@ -23,7 +23,13 @@
                                 <div class="card-item">
                                     <img src="images/dior_hit_the_road.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>250000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="13">
+                                        <input type="hidden" name="product_name" value="dior_hit_the_road">
+                                        <input type="hidden" name="product_price" value="250000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>
@@ -36,7 +42,13 @@
                                 <div class="card-item">
                                     <img src="images/dior_lingo1.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>300000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="14">
+                                        <input type="hidden" name="product_name" value="lingo">
+                                        <input type="hidden" name="product_price" value="300000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>
@@ -52,7 +64,13 @@
                                 <div class="card-item">
                                     <img src="images/dior_lingot.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>240000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="15">
+                                        <input type="hidden" name="product_name" value="lingot">
+                                        <input type="hidden" name="product_price" value="240000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>

@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body class="body margin">
-    <?php include("nav2.html");?>
+    <?php include("nav2.php");?>
 
     <?php include('navbar.html');?> 
+
+    <?php include('navbar3.php');?>
     
     
     <p>in case of anything do not hesitate to contact us</p>
@@ -45,7 +47,7 @@
        
         
     </form>
-    <?php include('footer.php');?>
-    <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+<?php include('footer.php');?>
+<script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

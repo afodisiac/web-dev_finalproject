@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <?php include('nav2.html');?>
+    <?php include('nav2.php');?>
     <?php include('navbar.html');?>
     
        <table class="table">
@@ -17,7 +17,7 @@
             <th scope="col"></th>
             <th scope="col"></th>
         </thead> -->
-        <tbody>
+        <tbody class="collapse-md-4">
             <th scope="row"></th>
             <td>
                 <div class="col-sm-4 mb-3 mb-sm-0">
@@ -45,8 +45,11 @@
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
+                    </button class="btn">
+                    <button class="btn">
+                        <a href="suits.php" class="btn btn-primary">checkout</a>
                     </button>
-                    <a href="suits.php" class="btn btn-primary">checkout</a>
+                    
                     </div>
                 </div>
             </td>
@@ -76,8 +79,11 @@
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
+                        </button >
+                        <button class="btn">
+                            <a href="summer_collection.php" class="btn btn-primary">checkout</a>
                         </button>
-                        <a href="summer_collection.php" class="btn btn-primary">checkout</a>
+                        
                     </div>
                 </div>
             </td>
@@ -107,8 +113,11 @@
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
+                            </button >
+                            <button class="btn">
+                                <a href="shoes.php" class="btn btn-primary">checkout</a>
                             </button>
-                            <a href="" class="btn btn-primary">checkout</a>
+                            
                         </div>
                     </div>
             </td>
@@ -141,7 +150,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
-                            <a href="trousers.php" class="btn btn-primary">checkout</a>
+                            <button class="btn">
+                                <a href="trousers.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>
@@ -172,7 +184,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
-                            <a href="briefcases.php" class="btn btn-primary">checkout</a>
+                            <button class="btn">
+                                <a href="briefcases.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>
@@ -203,7 +218,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
-                            <a href="dresses.php" class="btn btn-primary">checkout</a>
+                            <button class="btn">
+                                <a href="dresses.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>
@@ -213,7 +231,8 @@
                 <th scope="row"></th>
                 <td>
                     <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card" style="width: 25rem;">
+                        <div class="card"  style="width: 25rem;" href="jackets.php">
+                            <a href="jackets.php"></a>
                             <div class="card-body">
                             <h5 class="card-title">
                                 <a href="jackets.php">jackets</a>
@@ -221,7 +240,7 @@
                             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
                             <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="images/jacket1.webp" class="d-block w-100" alt="...">
+                                <img src="images/jacket1.webp" href="jackets.php" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/jacket2.webp" class="d-block w-100" alt="...">
@@ -238,7 +257,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
-                            <a href="jackets.php" class="btn btn-primary">checkout</a>
+                            <button class="btn">
+                                <a href="jackets.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>
@@ -269,7 +291,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
-                            <a href="denim.php" class="btn btn-primary">checkout</a>
+                            <button class="btn">
+                                <a href="denim.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>
@@ -300,7 +325,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                             </button>
+                            <button class="btn">
                             <a href="coats.php" class="btn btn-primary">checkout</a>
+                            </button>
+                            
                         </div>
                     </div>
                 </td>

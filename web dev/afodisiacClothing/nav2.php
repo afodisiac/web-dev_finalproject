@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-lg  ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">afodisiac</a>
+        <button class="btn btn-outline-primary">
+            <a class="navbar-brand " href="home3.php">afodisiac</a>
+        </button>
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -11,19 +14,9 @@
             </form>
         </div>
         <div>
-            <ul class="collapse navbar-collapse" >
-                <li>
-                    <button type="button" class="btn btn-outline-info">
-                        <a class="nav-link active" aria-current="page" href="register.php">register</a>
-                    </button> 
-                </li>
-                <li>
-                    <button type="button" class="btn btn-outline-info">
-                        <a class="nav-link" href="signin.php">signin</a>
-                    </button>
-                </li>
-            </ul>
+            <?php include('login_check.php');?>
         </div>
+        
         
     </div>
 </nav>

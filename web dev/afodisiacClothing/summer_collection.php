@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <?php include('nav2.html');?>
+    <?php include('nav2.php');?>
 
-    <?php include('navbar.html');?>
+    <?php include('navbar3.php');?>
     <table>
         <tbody>
             <tr>
@@ -108,6 +108,7 @@
         </tbody>
         
     </table>
+    <?php include('footer.php');?>
     <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

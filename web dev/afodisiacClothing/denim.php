@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <?php include('nav2.html');?>
+    <?php include('nav2.php');?>
 
-    <?php include('navbar.html');?>
+    
+
+    <?php include('navbar3.php'); ?>
     <table>
         <tbody>
             <tr>
@@ -19,11 +21,17 @@
                         <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
-                                <h5>denim</h5>
+                                <h5>jean jacket</h5>
                                 <div class="card-item">
                                     <img src="images/denim1.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>75000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="16">
+                                        <input type="hidden" name="product_name" value="jean-jacket">
+                                        <input type="hidden" name="product_price" value="75000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>
@@ -33,11 +41,17 @@
                         <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
-                                <h5>denim</h5>
+                                <h5>dior jacket</h5>
                                 <div class="card-item">
                                     <img src="images/denim2.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>50000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="17">
+                                        <input type="hidden" name="product_name" value="dior-jacket">
+                                        <input type="hidden" name="product_price" value="50000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>
@@ -47,11 +61,17 @@
                         <div class="col-sm-4 mb-4 mb-sm-0">
                         <div class="card"style="width: 25rem;">
                             <div class="card-body">
-                                <h5>denim</h5>
+                                <h5>cow boy jacket</h5>
                                 <div class="card-item">
                                     <img src="images/denim3.webp" class="d-block w-100" alt="well tailoured suit">
                                 </div>
-                                <a href="#" class="btn btn-warning">add to cart</a>
+                                <h3>100000</h3>
+                                <form method="post" action="add_to_cart.php"> 
+                                        <input type="hidden" name="product_id" value="18">
+                                        <input type="hidden" name="product_name" value="cow-boy-jacket">
+                                        <input type="hidden" name="product_price" value="100000"> 
+                                        <button type="submit" name="add_to_cart" class="btn btn-warning">Add to Cart</button>
+                                    </form>
                                 
                             </div>
                         </div>

@@ -9,24 +9,24 @@
 </head>
 <body>
     <?php include('navbar.html');?>
-    <form action="">
+    <form action="registration_process.php" method="post">
         <div class="container">
             <div class="card">
                 <label for="">Firstname</label>
-                <input type="text" placeholder="firstname"><br>
+                <input type="text" placeholder="firstname" name="firstname"><br>
                 <label for="">Secondname</label>
-                <input type="text" placeholder="secondnae">
+                <input type="text" placeholder="secondnae" name="secondname">
                 <br>
                 <label for="">Username</label>
-                <input type="text" placeholder="username">
+                <input type="text" placeholder="username" name="username"> 
                 <br>
                 <label for="">Email</label>
-                <input type="email" placeholder="name@gmail.com">
+                <input type="email" placeholder="name@gmail.com" name="email">
                 <br>
                 <label for="">Phone No.</label>
-                <input type="number" placeholder="+256 123456778">
+                <input type="number" placeholder="+256 123456778" name="phoneNo">
                 <div>
-                    <button type="button" class="btn btn-warning">register</button>
+                    <button type="submit" class="btn btn-warning">register</button>
                 </div>
             </div>
            

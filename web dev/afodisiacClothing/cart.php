@@ -7,11 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
+
 <body>
 <div class="card border-success mb-3" style="max-width: 18rem;">
                 <div class="card-header bg-transparent border-success">cart</div>
                 <div class="card-body text-success">
-                  <h5 class="card-title">this is what we have so far in your cart</h5>
+                  <h5 class="card-title"></h5>
                   
                 </div>
                 <div class="card-footer bg-transparent border-success">total:</div>

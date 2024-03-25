@@ -1,4 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <?php include('navbar3.php');?>
+    <?php include('footer.php');?>
+    
+    <script type="text/javascript" src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
 <?php 
+
 session_start();
 
 function addToCart($id,$name,$price,$quantity=1){
@@ -69,13 +87,19 @@ $products = array(
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
+            <?php $total=0;?>
             <?php if (isset($_SESSION['cart']) && count($_SESSION['cart']) > 0) {
                     echo "<ul>";
                     foreach ($_SESSION['cart'] as $id => $item) {
+                        $subtotal = $item['price']* $item['quantity'];
+                         
                         
-                        echo "<li>{$item['name']} - \${$item['price']} - Quantity: {$item['quantity']}</li>";
+                        echo "<li>{$item['name']} - \${$item['price']} - Quantity: {$item['quantity']}</li>";?>
+                        
+                        <?php $totalprice  += $subtotal;
                     }
                     echo "</ul>";
+                    echo $totalprice;
                 } else {
                     echo "Your cart is empty";
                 } ?>

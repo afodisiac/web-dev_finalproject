@@ -31,12 +31,12 @@
                 </div>
                 </div>
             </td>
-            <!-- <td>
+            <td>
             <div class="card"style="width:25rem;">
         <div class="card-body">
             <h5>loius vuitton coat</h5>
             <div class="card-items">
-                <img src="images/louis_vuitton_coat.jpg" class="d-block w-100" alt="well tailoured suit">
+                <img src="images/loius_vuitton_coat.jpg" class="d-block w-100" alt="well tailoured suit">
             </div>
             <h3>250000</h3>
             <form method="post" action="add_to_cart.php"> 

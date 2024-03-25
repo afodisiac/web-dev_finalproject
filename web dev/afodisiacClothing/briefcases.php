@@ -10,7 +10,7 @@
 <body>
     <?php include('nav2.php');?>
 
-    <?php include('navbar.html');?>
+    <?php include('navbar3.php');?>
     <table>
         <tbody>
             <tr>

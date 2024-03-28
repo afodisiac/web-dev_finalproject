@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="card">
-        <div class="cardbody">
-            <label for="username">username</label>
-            <input type="text" placeholder="username" name="username">
-            <label for="email">email</label>
-            <input type="email" placeholder="name@gmail.com" name="email">
+    <div class="container">
+        <div class="card" style="align-items:center;>
+            <div class="cardbody">
+                <label for="username">username</label>
+                <input type="text" placeholder="username" name="username">
+                <label for="email">email</label>
+                <input type="email" placeholder="name@gmail.com" name="email">
+            </div>
         </div>
     </div>
+    
+    <?php include('footer.php')?>
 </body>
 </html>

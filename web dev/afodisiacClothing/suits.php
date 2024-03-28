@@ -17,7 +17,7 @@
                 <th scope="row"></th>
                 <td>
                     <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card"style="width: 25rem;">
+                        <div class="card bg-success"style="width: 25rem;">
                             <div class="card-body">
                                 <h5>classic suit 1</h5>
                                 <div class="card-item">
@@ -37,7 +37,7 @@
                 </td>
                 <td>
                     <div class="col-sm-4 mb-3 mb-sm-0">
-                            <div class="card"style="width: 25rem;">
+                            <div class="card bg-dark"style="width: 25rem;">
                                 <div class="card-body">
                                     <h5>classic suit 2</h5>
                                     <div class="card-item">
@@ -57,7 +57,7 @@
                 </td>
                 <td >
                         <div class="col-md-6 mb-3 mx-auto">
-                                <div class="card"style="width: 25rem;">
+                                <div class="card"style="width: 25rem,;">
                                     <div class="card-body">
                                         <h5>classic suit 3</h5>
                                         <div class="card-item">

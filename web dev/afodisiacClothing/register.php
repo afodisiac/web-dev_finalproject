@@ -11,7 +11,7 @@
     <?php include('navbar.html');?>
     <form action="registration_process.php" method="post">
         <div class="container">
-            <div class="card">
+            <div class="card" style="align-items:center;">
                 <label for="">Firstname</label>
                 <input type="text" placeholder="firstname" name="firstname"><br>
                 <label for="">Secondname</label>
@@ -25,6 +25,7 @@
                 <br>
                 <label for="">Phone No.</label>
                 <input type="number" placeholder="+256 123456778" name="phoneNo">
+               
                 <div>
                     <button type="submit" class="btn btn-warning">register</button>
                 </div>
